@@ -1,4 +1,4 @@
-# [Codecov][1] Kotlin Example with standard file structure
+# [Codecov](https://codecov.io) Kotlin Example with standard file structure
 ## Guide
 
 **Using maven?** See [maven kotlin example](https://github.com/codecov/example-kotlin)
@@ -41,3 +41,11 @@ fixes:
 ```
 
 Replacing `org/jacoco/examples/gradle` with your own package prefix.
+
+### Private Repo
+Repository tokens are required for (a) all private repos, (b) public repos not using Travis-CI, CircleCI or AppVeyor. Find your repository token at Codecov and provide via appending `-t <your upload token>` to you where you upload reports.
+
+## Links
+- [Community Boards](https://community.codecov.io)
+- [Support](https://codecov.io/support)
+- [Documentation](https://docs.codecov.io)
