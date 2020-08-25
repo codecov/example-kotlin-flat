@@ -23,10 +23,9 @@ plugins {
 
 tasks.withType<JacocoReport> {
     reports {
-        xml.isEnabled = false
+        xml.isEnabled = true
         csv.isEnabled = false
-        html.isEnabled = true
-        html.destination = file("$buildDir/reports/coverage")
+        html.isEnabled = false
     }
 }
 ```
