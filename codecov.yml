@@ -1,0 +1,3 @@
+fixes:
+  - "src/main/org/jacoco/examples/gradle/kotlin/::src/main/kotlin/"
+  - "src/test/org/jacoco/examples/gradle/kotlin/::src/test/kotlin/"
